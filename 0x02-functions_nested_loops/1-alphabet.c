@@ -1,16 +1,16 @@
-nclude "main.h"
+#include "main.h"
+
 /**
- *  * print_alphabet - Function prototype
- *   * Description -  prints the alphabet, in lowercase, followed by a new line
- *    * Return : void.
- **/
+ * * print_alphabet -> prints the lowercase alphabets
+ */
+
 void print_alphabet(void)
 {
-char x = 'a';
-while (x <= 'z')
+int j;
+
+for (j = 'a'; j <= 'z'; j++)
 {
-_putchar(x);
-x++;
+_putchar(j);
 }
 _putchar('\n');
 }
