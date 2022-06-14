@@ -36,6 +36,6 @@ int _atoi(char *s)
 		index++;
 	}
 	if (sign < 0)
-	   res *= sign;
+		res *= sign;
 	return (res);
 }
